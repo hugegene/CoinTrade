@@ -1,3 +1,4 @@
 build/
-ui/chromedriver_linux64
-ui/chromedriver_win32
+ui/chromedriver_linux64/
+ui/chromedriver_win32/
+.spyproject/

@@ -1,0 +1,10 @@
+2022-01-09 21:04:58.970 DEBUG remote_connection - _request: POST http://localhost:50423/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--start-maximized", "--disable-web-security", "--no-sandbox", "--allow-running-insecure-content", "--window-size=1920,1080", "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36", "no-default-browser-check", "no-first-run"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--start-maximized", "--disable-web-security", "--no-sandbox", "--allow-running-insecure-content", "--window-size=1920,1080", "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36", "no-default-browser-check", "no-first-run"]}}}
+2022-01-09 21:04:58.972 DEBUG connectionpool - _new_conn: Starting new HTTP connection (1): localhost:50423
+2022-01-09 21:04:59.288 DEBUG connectionpool - _make_request: http://localhost:50423 "POST /session HTTP/1.1" 200 750
+2022-01-09 21:04:59.288 DEBUG remote_connection - _request: Finished Request
+2022-01-09 21:04:59.289 DEBUG remote_connection - _request: POST http://localhost:50423/session/3e676d206e4a404eaea7aa250188b235/url {"url": "https://www.coinhako.com/wallet/"}
+2022-01-09 21:05:00.225 DEBUG connectionpool - _make_request: http://localhost:50423 "POST /session/3e676d206e4a404eaea7aa250188b235/url HTTP/1.1" 200 14
+2022-01-09 21:05:00.225 DEBUG remote_connection - _request: Finished Request
+2022-01-09 21:05:02.226 DEBUG remote_connection - _request: POST http://localhost:50423/session/3e676d206e4a404eaea7aa250188b235/element {"using": "css selector", "value": "[id=\"user_email\"]"}
+2022-01-09 21:05:02.237 DEBUG connectionpool - _make_request: http://localhost:50423 "POST /session/3e676d206e4a404eaea7aa250188b235/element HTTP/1.1" 500 820
+2022-01-09 21:05:02.238 DEBUG remote_connection - _request: Finished Request
